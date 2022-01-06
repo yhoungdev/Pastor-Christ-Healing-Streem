@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//header part header
+header {
+    display: flex;
+    justify-content: space-between;
+
+    //style the nav
+    nav ul {
+        display: inline-flex;
+        list-style-type: none;
+
+
+        
+        li {
+            margin-right: 2em;
+        }
+        li:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(90, 90, 90);
+        font-size: 1.5em;
+        
+    }
+}
