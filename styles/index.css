@@ -11,6 +11,10 @@
   --orange:#F25420;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,5 +55,27 @@ header a {
 .hero .container small {
   font-family: inter;
   color: grey;
+}
+
+main .container .language {
+  height: 29px;
+  width: 457px;
+  left: 393px;
+  top: 780px;
+  border-radius: nullpx;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin: 2em 0;
+}
+
+main .container .flags {
+  position: absolute;
+  width: 100%;
+  padding: 1em 0;
+  background: #E9E9E9;
 }
 /*# sourceMappingURL=index.css.map */
