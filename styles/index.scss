@@ -1,7 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+//colors and ohers 
+:root {
+    --primary:#29557B;
+    --orange:#F25420;
+
 }
 
 //header part header
@@ -30,4 +38,29 @@ header {
         font-size: 1.5em;
         
     }
+
+  
 }
+
+//hero top sections
+
+.hero {
+    .container {
+
+
+        .text-details {
+            color: var(--primary);
+            font-size:    85px;
+            font-family: poppins;
+            font-weight: 700;
+        }
+
+        small {
+            font-family: inter;
+            color: grey;
+        }
+    }
+}
+
+
+
