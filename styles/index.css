@@ -73,7 +73,6 @@ main .container .language {
 }
 
 main .container .flags {
-  position: absolute;
   width: 100%;
   padding: 1em 0;
   background: #E9E9E9;
