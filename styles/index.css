@@ -45,6 +45,10 @@ header a {
   font-size: 1.5em;
 }
 
+.hero {
+  height: 50vh;
+}
+
 .hero .container .text-details {
   color: var(--primary);
   font-size: 85px;
